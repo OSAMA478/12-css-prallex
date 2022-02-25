@@ -115,3 +115,9 @@ nav div ul li a {
 p {
 	padding: 20px;
 }
+
+@media screen and (max-width: 950px) {
+	[class*="text-container"] {
+		overflow: scroll;
+	}
+}
